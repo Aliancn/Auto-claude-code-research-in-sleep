@@ -1,0 +1,73 @@
+{
+  "workers_4": {
+    "fifo": {
+      "mean_makespan_s": 13.031500000000001,
+      "p50_makespan_s": 13.306000000000003,
+      "p95_makespan_s": 19.107999999999997,
+      "worker_idle_frac": 0.2593707629708718,
+      "worker_load_cv": 0.3101725333609256,
+      "group_close_p50_s": 4.550000000000001,
+      "group_close_p95_s": 12.06,
+      "group_close_p99_s": 15.614,
+      "speedup_vs_fifo": 1.0
+    },
+    "rr": {
+      "mean_makespan_s": 13.031500000000001,
+      "p50_makespan_s": 13.306000000000003,
+      "p95_makespan_s": 19.107999999999997,
+      "worker_idle_frac": 0.2593707629708718,
+      "worker_load_cv": 0.3101725333609256,
+      "group_close_p50_s": 4.550000000000001,
+      "group_close_p95_s": 12.06,
+      "group_close_p99_s": 15.614,
+      "speedup_vs_fifo": 1.0
+    },
+    "random": {
+      "mean_makespan_s": 12.45525,
+      "p50_makespan_s": 12.786000000000001,
+      "p95_makespan_s": 14.956000000000001,
+      "worker_idle_frac": 0.23659957155498515,
+      "worker_load_cv": 0.27317180017943343,
+      "group_close_p50_s": 4.8100000000000005,
+      "group_close_p95_s": 11.203999999999997,
+      "group_close_p99_s": 13.457999999999998,
+      "speedup_vs_fifo": 1.0463
+    },
+    "length_lpt": {
+      "mean_makespan_s": 12.026,
+      "p50_makespan_s": 12.664,
+      "p95_makespan_s": 14.728000000000003,
+      "worker_idle_frac": 0.20564567048024,
+      "worker_load_cv": 0.24271959404899854,
+      "group_close_p50_s": 4.678,
+      "group_close_p95_s": 10.86,
+      "group_close_p99_s": 13.104000000000001,
+      "speedup_vs_fifo": 1.0836
+    },
+    "ewma_lpt": {
+      "mean_makespan_s": 12.485375,
+      "p50_makespan_s": 12.081999999999997,
+      "p95_makespan_s": 19.107999999999997,
+      "worker_idle_frac": 0.2303773871908493,
+      "worker_load_cv": 0.2714367600130986,
+      "group_close_p50_s": 5.8999999999999995,
+      "group_close_p95_s": 12.059999999999999,
+      "group_close_p99_s": 14.476,
+      "prediction_spearman": 0.31352473893140687,
+      "prediction_mae_s": 0.4658502247392632,
+      "speedup_vs_fifo": 1.0437,
+      "oracle_gap_closed": 0.1529
+    },
+    "oracle_lpt": {
+      "mean_makespan_s": 9.45925,
+      "p50_makespan_s": 9.684,
+      "p95_makespan_s": 11.876,
+      "worker_idle_frac": 0.0016332038128309477,
+      "worker_load_cv": 0.0013999944052184648,
+      "group_close_p50_s": 7.9399999999999995,
+      "group_close_p95_s": 10.620000000000003,
+      "group_close_p99_s": 11.717999999999998,
+      "speedup_vs_fifo": 1.3776
+    }
+  }
+}
